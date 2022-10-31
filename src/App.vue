@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
-    <div>new game123</div>
-  </div>
+  <gamePage />
 </template>
 
 <script>
+import gamePage from "../src/components/gamePage.vue";
 export default {
   name: "App",
-  components: {},
+  components: { gamePage },
 };
 </script>
 

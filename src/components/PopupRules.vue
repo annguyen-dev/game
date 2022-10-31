@@ -1,18 +1,17 @@
 <template>
   <div>
-    <div>Rules</div>
-    <!-- <div>
-      <img src="../assets/images/icon-rock.svg" alt="" />
-      <img src="../assets/images/icon-paper.svg" alt="" />
-      <img src="../assets/images/icon-lizard.svg" alt="" />
-      <img src="../assets/images/image-rules-bonus.svg" alt="" />
-    </div> -->
-    <div>
-      <img src="../assets/images/image-rules-bonus.svg" alt="" />
-    </div>
+    <div>Rules123123</div>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  components: {},
+  data() {
+    return {
+      //   dialog: true,
+    };
+  },
+  methods: {},
+};
 </script>
 <style lang=""></style>

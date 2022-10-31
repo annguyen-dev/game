@@ -1,17 +1,13 @@
 <template>
-  <div>
-    <PopupRules />
-    <ControlsGame />
-  </div>
+  <div class="bg">a</div>
 </template>
 <script>
-import PopupRules from "./PopupRules.vue";
-import ControlsGame from "./ControlsGame.vue";
 export default {
-  components: {
-    ControlsGame,
-    PopupRules,
-  },
+  components: {},
 };
 </script>
-<style lang=""></style>
+<style lang="" scoped>
+.bg {
+  color: red;
+}
+</style>
